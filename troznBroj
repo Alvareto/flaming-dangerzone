@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "main.h"
+
+void troznBroj(int x) {
+  int rez;
+
+	if (x < 100 || x > 999) {
+		printf("Broj %d nije troznamenkast", x);
+	}
+	else {
+		rez = x % 100;
+		rez = rez/10; /* cjelobrojno djeljenje */
+
+		printf("Srednja vrijednost broja %d je %d\n", x, rez);
+	}
+}
