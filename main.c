@@ -49,7 +49,7 @@ do {
 /* POVRSINA KRUGA */
 	if (opcija == 'c' || opcija == 'C') {
 
-		printf("Unesite radijus kurga: ");
+		printf("Unesite radijus kruga: ");
 		scanf("%f", &radijus);
 
 		povrsKruga(radijus);
